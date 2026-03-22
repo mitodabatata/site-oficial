@@ -1,0 +1,67 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #33ff00;
+    transition: 0.5s;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid purple;
+    object-fit: cover;
+}
+
+h1 { color: red; }
+h2 { color: green; }
+
+/* ESTILO DO FOOTER CORRIGIDO */
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Espaço entre os dois links */
+    padding: 40px;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
+
+.social-item {
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; /* Garante que o ícone não amasse */
+    display: block;
+    margin: 0 auto 10px; /* Centraliza a imagem e dá espaço pro texto */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
